@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerformansysAnalys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bd1178729a87e32c102b3180a09f805f0cb7af66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd38fe641645747733e356ed4d0892af218de5f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerformansysAnalys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerformansysAnalys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
