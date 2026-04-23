@@ -1,15 +1,72 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\application\\reports\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\application\\reports\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\application\\reports\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\application\\reports\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\infrastructure\\reports\\reportqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\infrastructure\\reports\\reportqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\infrastructure\\auth\\extensions\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\infrastructure\\auth\\extensions\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\application\\auth\\dtos\\loginwithcookierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\application\\auth\\dtos\\loginwithcookierequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD2C9072-A0CF-4618-8C29-3665EC297D0F}|Tests\\Tests.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\tests\\reportservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD2C9072-A0CF-4618-8C29-3665EC297D0F}|Tests\\Tests.csproj|solutionrelative:tests\\reportservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\reports\\topquestionswithincorrectanswers\\topquestionswithincorrectanswersitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\reports\\topquestionswithincorrectanswers\\topquestionswithincorrectanswersitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\application\\auth\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\application\\auth\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\application\\auth\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\application\\auth\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|c:\\users\\\u0430\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\desktop\\performansysanalys\\performansysanalys\\reports\\topquestionswithincorrectanswers\\topquestionswithincorrectanswersfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C932AE8-2001-4606-8B3A-8D0975F54E05}|PerformansysAnalys\\PerformansysAnalys.csproj|solutionrelative:performansysanalys\\reports\\topquestionswithincorrectanswers\\topquestionswithincorrectanswersfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 1,
+      "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 179,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 104,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,11 +87,184 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HttpContextExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Infrastructure\\Auth\\Extensions\\HttpContextExtensions.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Infrastructure\\Auth\\Extensions\\HttpContextExtensions.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Infrastructure\\Auth\\Extensions\\HttpContextExtensions.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Infrastructure\\Auth\\Extensions\\HttpContextExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:19:06.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\Tests\\ReportServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\ReportServiceTests.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\Tests\\ReportServiceTests.cs",
+              "RelativeToolTip": "Tests\\ReportServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T14:01:04.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Auth\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Application\\Auth\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Auth\\Services\\AuthService.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Application\\Auth\\Services\\AuthService.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:46:38.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Auth\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Application\\Auth\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Auth\\Services\\IAuthService.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Application\\Auth\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:31:34.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:29:56.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Reports\\IReportService.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Application\\Reports\\IReportService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Reports\\IReportService.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Application\\Reports\\IReportService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:44:47.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Program.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Program.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Program.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Program.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAQwHQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:22:19.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginWithCookieRequest.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Auth\\Dtos\\LoginWithCookieRequest.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Application\\Auth\\Dtos\\LoginWithCookieRequest.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Auth\\Dtos\\LoginWithCookieRequest.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Application\\Auth\\Dtos\\LoginWithCookieRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:18:50.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\appsettings.json",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\appsettings.json",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\appsettings.json",
+              "RelativeToolTip": "PerformansysAnalys\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-22T13:07:52.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwCoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T13:01:16.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReportQueries.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Infrastructure\\Reports\\ReportQueries.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Infrastructure\\Reports\\ReportQueries.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Infrastructure\\Reports\\ReportQueries.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Infrastructure\\Reports\\ReportQueries.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAQwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:58:38.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Reports\\ReportService.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Application\\Reports\\ReportService.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Application\\Reports\\ReportService.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Application\\Reports\\ReportService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:57:36.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TopQuestionsWithIncorrectAnswersFilter.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Reports\\TopQuestionsWithIncorrectAnswers\\TopQuestionsWithIncorrectAnswersFilter.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Reports\\TopQuestionsWithIncorrectAnswers\\TopQuestionsWithIncorrectAnswersFilter.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Reports\\TopQuestionsWithIncorrectAnswers\\TopQuestionsWithIncorrectAnswersFilter.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Reports\\TopQuestionsWithIncorrectAnswers\\TopQuestionsWithIncorrectAnswersFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:54:58.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TopQuestionsWithIncorrectAnswersItem.cs",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Reports\\TopQuestionsWithIncorrectAnswers\\TopQuestionsWithIncorrectAnswersItem.cs",
+              "RelativeDocumentMoniker": "PerformansysAnalys\\Reports\\TopQuestionsWithIncorrectAnswers\\TopQuestionsWithIncorrectAnswersItem.cs",
+              "ToolTip": "C:\\Users\\\u0410\u043B\u0435\u043A\u0441\u0430\u0434\u0440\\Desktop\\PerformansysAnalys\\PerformansysAnalys\\Reports\\TopQuestionsWithIncorrectAnswers\\TopQuestionsWithIncorrectAnswersItem.cs",
+              "RelativeToolTip": "PerformansysAnalys\\Reports\\TopQuestionsWithIncorrectAnswers\\TopQuestionsWithIncorrectAnswersItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T12:48:47.825Z"
             }
           ]
         },
         {
-          "DockedHeight": 168,
+          "DockedWidth": 1661,
           "SelectedChildIndex": -1,
           "Children": [
             {

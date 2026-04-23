@@ -13,6 +13,7 @@ namespace PerformansysAnalys.Application.Auth.Services
         Task<AuthResponse> LoginAsync(LoginRequest request, CancellationToken ct = default);
         Task<AuthResponse> LoginWithCookieAsync(LoginWithCookieRequest request, CancellationToken ct = default);
         Task LogoutAsync(CancellationToken ct = default);
+    
     }
     
 }

@@ -9,6 +9,7 @@ using PerformanceAnalysis.Reports.StudentRating;
 using PerformanceAnalysis.Reports.StudentTestResults;
 using PerformansysAnalys.Application.Reports;
 using PerformansysAnalys.Infrastructure.Auth.Extensions;
+using PerformansysAnalys.Reports.TopQuestionsWithIncorrectAnswers;
 
 
 namespace PerformansysAnalys.Controllers
@@ -34,10 +35,10 @@ namespace PerformansysAnalys.Controllers
         [HttpGet("student-test-results")]
         public async Task<IActionResult> GetStudentTestResults([FromQuery] StudentTestResultsFilter filter)
         {
-            if (!ValidateStudentAccess(filter.StudentId))
-            {
-                return Forbid();
-            }
+            //if (!ValidateStudentAccess(filter.StudentId))
+            //{
+            //    return Forbid();
+            //}
 
             if (HttpContext.IsStudent() && filter.StudentId == null)
             {
@@ -126,6 +127,8 @@ namespace PerformansysAnalys.Controllers
         /// </summary>
         private bool ValidateStudentAccess(int? studentId)
         {
+          
+
             if (HttpContext.IsManager())
             {
                 return true;
@@ -146,6 +149,16 @@ namespace PerformansysAnalys.Controllers
             return false;
         }
 
+        /// <summary>
+        /// получение вопросов с самым низким процентом правильных ответов
+        /// </summary>
+       
+        [HttpGet("top-questions-with-incorrect-answers")]
+        public async Task<IActionResult> GetTopQuestionsWithIncorrectAnswers([FromQuery] TopQuestionsWithIncorrectAnswersFilter filter)
+        {
+            var result = await _reportService.GetTopQuestionsWithIncorrectAnswersAsync(filter);
+            return Ok(result);
+        }
 
     }
 }

@@ -12,6 +12,7 @@ using PerformanceAnalysis.Reports.StudentRating;
 using PerformanceAnalysis.Reports.StudentTestResults;
 using PerformansysAnalys.Infrastructure.Reports;
 using PerformansysAnalys.Reports.DayOfWeekActivity;
+using PerformansysAnalys.Reports.TopQuestionsWithIncorrectAnswers;
 using System.Data;
 using System.Data.Common;
 
@@ -100,6 +101,11 @@ namespace PerformansysAnalys.Application.Reports
         public async Task<IEnumerable<DayOfWeekActivityItem>> GetDayOfWeekActivityAsync(DayOfWeekActivityFilter filter)
         {
             return await _dapper.QueryAsync<DayOfWeekActivityItem>(ReportQueries.DayOfWeekActivity, filter);
+        }
+
+        public async Task<IEnumerable<TopQuestionsWithIncorrectAnswersItem>> GetTopQuestionsWithIncorrectAnswersAsync(TopQuestionsWithIncorrectAnswersFilter filter)
+        {
+            return await _dapper.QueryAsync<TopQuestionsWithIncorrectAnswersItem>(ReportQueries.TopQuestionsWithIncorrectAnswers, filter);
         }
 
         //dotnet ef dbcontext scaffold "Host=localhost;Port=5432;Database=testing_results_3kb1;Username=postgres;Password=12345" Npgsql.EntityFrameworkCore.PostgreSQL --output-dir Domain/Auth --context AuthDbContext --context-dir Infrastructure/Auth --table users --table students --table refreshtokens --table groups --table student_groups --namespace Domain.Auth --context-namespace Infrastructure.Auth --no-onconfiguring --force

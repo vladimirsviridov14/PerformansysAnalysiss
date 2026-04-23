@@ -1,4 +1,8 @@
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
+using PerformansysAnalys.Application.Auth.Dtos;
+using PerformansysAnalys.Application.Auth.Services;
 
 namespace PerformansysAnalys.Controllers
 {
@@ -6,28 +10,76 @@ namespace PerformansysAnalys.Controllers
     [Route("[controller]")]
     public class AuthController : ControllerBase
     {
-        private static readonly string[] Summaries = new[]
-        {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-        };
+        private readonly IAuthService _authService;
 
-        private readonly ILogger<AuthController> _logger;
-
-        public AuthController(ILogger<AuthController> logger)
+        public AuthController(IAuthService authService)
         {
-            _logger = logger;
+            _authService = authService;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] ReqisterRequest request)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            try
             {
-                Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                TemperatureC = Random.Shared.Next(-20, 55),
-                Summary = Summaries[Random.Shared.Next(Summaries.Length)]
-            })
-            .ToArray();
+                var result = await _authService.RegisterAsync(request);
+                return Ok(result);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] Application.Auth.Dtos.LoginRequest request)
+        {
+            try
+            {
+                var result = await _authService.LoginAsync(request);
+                return Ok(result);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Unauthorized(new { message = ex.Message });
+            }
+        }
+
+        [HttpPost("login-with-cookie")]
+        public async Task<IActionResult> LoginWithCookie([FromBody] LoginWithCookieRequest request)
+        {
+            try
+            {
+                var result = await _authService.LoginWithCookieAsync(request);
+                return Ok(result);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Unauthorized(new { message = ex.Message });
+            }
+        }
+
+        [HttpPost("logout")]
+        [Authorize(AuthenticationSchemes = "Cookies")]
+        public async Task<IActionResult> Logout()
+        {
+            try
+            {
+                await _authService.LogoutAsync();
+                return Ok("Вы успешно вышли из системы");
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
+        [HttpGet]
+        public IActionResult GetCurrentUser()
+        {
+            var claims = User.Claims.Select(c => new { c.Type, c.Value }).ToList();
+
+            return Ok();
         }
     }
 }

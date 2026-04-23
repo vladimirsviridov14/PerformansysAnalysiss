@@ -5,37 +5,40 @@
         public const string GroupLeadersAndLaggards = @"
             WITH StudentScores as (
                 SELECT 
-		            u.firstname || ' ' || u.lastname AS fullname,
+                    u.firstname || ' ' || u.lastname AS fullname,
                     g.id AS GroupId,
                     g.name AS GroupName,
                     d.name AS DirectionName,
                     c.name AS CourseName,
                     COALESCE(SUM(a.score), 0) AS totalscore
                 FROM students s
-		            JOIN users u ON s.userid = u.id
+                    JOIN users u ON s.userid = u.id
                     JOIN student_groups sg ON s.id = sg.studentsId
                     JOIN groups g ON g.id = sg.groupsid
                     JOIN directions d ON d.id = g.directionid
                     JOIN courses c ON c.id = g.courseid
-                    JOIN projects p ON p.id = g.projectid
                     LEFT JOIN attempts a ON a.studentid = s.id
-	            WHERE (@DirectionId IS NULL OR g.directionid = @DirectionId) AND (@CourseId IS NULL g.courseid = @CourseId)
+                WHERE (@DirectionId IS NULL OR g.directionid = @DirectionId) 
+                  AND (@CourseId IS NULL OR g.courseid = @CourseId)
                 GROUP BY g.id, g.name, c.name, d.name, u.firstname, u.lastname
-                ),
-                GroupMaxMin AS (
-                    SELECT GroupId, MAX(TotalScore) AS MaxScore, MIN(TotalScore) AS MinScore
-                    FROM StudentScores
-                    GROUP BY GroupId
-                )
-                SELECT ss.GroupId, ss.GroupName, ss.DirectionName, ss.CourseName, 
-                MAX(CASE WHEN ss.totalscore = MaxScore THEN ss.fullname END) AS LeaderScore,
-                MAX(CASE WHEN ss.totalscore = MinScore THEN ss.fullname END) AS LaggardScore,
-                MAX(CASE WHEN ss.totalscore = MaxScore THEN ss.totalscore END) AS LeaderScore,
-                MAX(CASE WHEN ss.totalscore = MinScore THEN ss.totalscore END) AS LaggardScore
-                FROM StudentScores ss
-                JOIN GroupMaxMin gmm ON ss.GroupId = gmm.GroupId
-                GROUP BY ss.GroupId, ss.GroupName, ss.DirectionName, ss.CourseName
-                ORDER BY ss.GroupName";
+            ),
+            GroupMaxMin AS (
+                SELECT GroupId, MAX(totalscore) AS MaxScore, MIN(totalscore) AS MinScore
+                FROM StudentScores
+                GROUP BY GroupId
+            )
+            SELECT 
+                ss.GroupId, 
+                ss.GroupName, 
+                ss.DirectionName, 
+                ss.CourseName, 
+                MAX(CASE WHEN ss.totalscore = gmm.MaxScore THEN ss.fullname END) AS LeaderName,
+                MAX(CASE WHEN ss.totalscore = gmm.MinScore THEN ss.fullname END) AS LaggardName,
+                MAX(CASE WHEN ss.totalscore = gmm.MaxScore THEN ss.totalscore END) AS LeaderScore,
+                MAX(CASE WHEN ss.totalscore = gmm.MinScore THEN ss.totalscore END) AS LaggardScore
+            FROM StudentScores ss
+            JOIN GroupMaxMin gmm ON ss.GroupId = gmm.GroupId
+            GROUP BY ss.GroupId, ss.GroupName, ss.DirectionName, ss.CourseName";
         public const string GroupTrend = @"
             SELECT 
 	            g.id as GroupId,
@@ -171,6 +174,24 @@
               AND (@GroupId IS NULL OR sg.groupsid = @GroupId)
             GROUP BY s.id, u.firstname, u.lastname, c.name, g.name, d.name
             ORDER BY totalscore DESC LIMIT 50;";
+
+        public const string TopQuestionsWithIncorrectAnswers = @"
+            SELECT questionid, text, DIF
+            FROM (
+                SELECT 
+                    uaa.questionid,
+                    q.text,
+                    ROUND(
+                        COUNT(CASE WHEN uaa.iscorrect = True THEN 1 END)::NUMERIC 
+                        / COUNT(*), 
+                        2
+                    ) AS DIF
+                FROM public.userattemptanswers uaa
+                JOIN public.questions q ON q.id = uaa.questionid 
+                GROUP BY uaa.questionid, q.text 
+            ) AS subquery
+            ORDER BY DIF ASC, questionid ASC
+            LIMIT 10;";
 
 
 

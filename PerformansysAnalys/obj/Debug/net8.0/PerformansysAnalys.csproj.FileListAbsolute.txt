@@ -115,3 +115,4 @@ C:\Users\Алексадр\Desktop\PerformansysAnalys\PerformansysAnalys\obj\Debu
 C:\Users\Алексадр\Desktop\PerformansysAnalys\PerformansysAnalys\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\Алексадр\Desktop\PerformansysAnalys\PerformansysAnalys\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Алексадр\Desktop\PerformansysAnalys\PerformansysAnalys\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Алексадр\Desktop\PerformansysAnalys\PerformansysAnalys\obj\Debug\net8.0\PerformansysAnalys.sourcelink.json
